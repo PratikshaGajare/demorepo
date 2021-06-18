@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="academy.HomePage">
+        <methods>
+          <include name="initilizePage"/>
+          <include name="browserLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- academy.HomePage -->
+      <class name="academy.LoginPageTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getAllTC" invocation-numbers="1"/>
+          <include name="initilizePage"/>
+          <include name="browserLogin"/>
+        </methods>
+      </class> <!-- academy.LoginPageTC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

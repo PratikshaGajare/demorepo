@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="academy.LoginPageTC">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="getAllTC" invocation-numbers="0 1"/>
+          <include name="initilizePage"/>
+          <include name="browserLogin"/>
+        </methods>
+      </class> <!-- academy.LoginPageTC -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
