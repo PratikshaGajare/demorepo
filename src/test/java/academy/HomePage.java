@@ -30,7 +30,12 @@ public class HomePage extends Base {
 		log.info("brower successfully open");
 		driver.get(prop.getProperty("url"));
 		log.info("url successfully open");
+		
 
+	}
+	public void m1()
+	{
+		System.out.println("hello");
 	}
 
 	/*
